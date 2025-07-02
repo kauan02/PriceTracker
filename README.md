@@ -64,11 +64,11 @@ Quick Start (Backend Only)
 
 Status
 ------
-[x] Web scraping implemented
-[ ] Data stored in PostgreSQL
-[ ] ML model under development
-[ ] Frontend in progress
-[ ] Full integration and deployment
+- [x] Web scraping implemented
+- [ ] Data stored in PostgreSQL
+- [ ] ML model under development
+- [ ] Frontend in progress
+- [ ] Full integration and deployment
 
 Future Improvements
 -------------------
