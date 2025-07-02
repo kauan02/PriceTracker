@@ -30,13 +30,13 @@ Deployment      : Docker + Railway / Vercel
 
 System Architecture
 -------------------
-[ Scraper ] ---> [ PostgreSQL Database ]
-                     ↑
-[ ML Training ] <----┘
-     ↓
-[ FastAPI REST API ]
-     ↓
-[ Frontend (HTML/CSS/JS) ]
+- [ Scraper ] ---> [ PostgreSQL Database ]
+-                      ↑
+- [ ML Training ] <----┘
+-      ↓
+- [ FastAPI REST API ]
+-      ↓
+- [ Frontend (HTML/CSS/JS) ]
 
 Setup Instructions (WIP)
 ------------------------
