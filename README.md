@@ -83,6 +83,6 @@ This project is open-source and available under the MIT License.
 
 Author
 ------
-Kauan Barbosa Rezende
-GitHub: https://github.com/kauan02
-LinkedIn: https://www.linkedin.com/in/kauan-barbosa-5b8133268/
+-Kauan Barbosa Rezende
+-GitHub: https://github.com/kauan02
+-LinkedIn: https://www.linkedin.com/in/kauan-barbosa-5b8133268/
