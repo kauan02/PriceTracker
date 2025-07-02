@@ -1,21 +1,18 @@
 import requests
-from bs4 import BeautifulSoup
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.by import By
 
-url = "https://www.kabum.com.br/produto/320797/processador-amd-ryzen-7-5700x-3-4ghz-4-6ghz-max-turbo-cache-36mb-am4-sem-video-100-100000926wof"
-page = requests.get(url)
+driver = webdriver.Firefox()
+driver.get("https://www.kabum.com.br/produto/320797/processador-amd-ryzen-7-5700x-3-4ghz-4-6ghz-max-turbo-cache-36mb-am4-sem-video-100-100000926wof")
+assert "5700X" in driver.title
 
-soup = BeautifulSoup(page.content, "html.parser")
+product_name = driver.find_element(By.CLASS_NAME, "brTtKt")
+price = driver.find_element(By.CLASS_NAME, "finalPrice")
+normal_price = driver.find_element(By.CLASS_NAME, "oldPrice")
 
-def Scrap():
-    
-    soup = BeautifulSoup(page.content, "html.parser")
-    
-    name = soup.find("h2", class_="sc-58b2114e-6 brTtKt")
-    price = soup.find("h4", class_="sc-5492faee-2 ipHrwP finalPrice")
-    original_price = soup.find("span", class_="sc-5492faee-1 ibyzkU oldPrice")
-    print(name)
-    print(price)
-    print(original_price)
-        
-Scrap()
-print(page.text)
+print(product_name.text)
+print(normal_price.text)
+print(price.text)
+
+driver.quit()
