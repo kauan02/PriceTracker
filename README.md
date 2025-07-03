@@ -30,13 +30,13 @@ Deployment      : Docker + Railway / Vercel
 
 System Architecture
 -------------------
-[ Scraper ] ---> [ PostgreSQL Database ]
-                     ↑
-[ ML Training ] <----┘
-     ↓
-[ FastAPI REST API ]
-     ↓
-[ Frontend (HTML/CSS/JS) ]
+- [ Scraper ] ---> [ PostgreSQL Database ]
+-                      ↑
+- [ ML Training ] <----┘
+-      ↓
+- [ FastAPI REST API ]
+-      ↓
+- [ Frontend (HTML/CSS/JS) ]
 
 Setup Instructions (WIP)
 ------------------------
@@ -64,11 +64,11 @@ Quick Start (Backend Only)
 
 Status
 ------
-[x] Web scraping implemented
-[ ] Data stored in PostgreSQL
-[ ] ML model under development
-[ ] Frontend in progress
-[ ] Full integration and deployment
+- [x] Web scraping implemented
+- [ ] Data stored in PostgreSQL
+- [ ] ML model under development
+- [ ] Frontend in progress
+- [ ] Full integration and deployment
 
 Future Improvements
 -------------------
@@ -83,6 +83,6 @@ This project is open-source and available under the MIT License.
 
 Author
 ------
-Kauan Barbosa Rezende
-GitHub: https://github.com/kauan02
-LinkedIn: https://www.linkedin.com/in/kauan-barbosa-5b8133268/
+- Kauan Barbosa Rezende
+- GitHub: https://github.com/kauan02
+- LinkedIn: https://www.linkedin.com/in/kauan-barbosa-5b8133268/
